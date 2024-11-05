@@ -4,7 +4,7 @@
 */
 
 function reverseString(str) {
-	return str.split("").reverse().join("");
+     return str.split("").reverse().join("");
 }
 
 /*
@@ -13,7 +13,7 @@ function reverseString(str) {
   y devuelva true si la cadena es un palíndromo, y false en caso contrario.
 */
 function isPalindrome(str) {
-    return str == str.split("").reverse("").join("")
+    return str == str.split("").reverse("").join("");
 }
 
 /*
